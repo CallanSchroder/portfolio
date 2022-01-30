@@ -1,0 +1,55 @@
+.header{
+    padding-top: 15px;
+    padding-bottom:10px
+}
+
+h1, h2, h3, h4, h5{
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+
+.Portfolio-Heading {
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align: center;
+}
+
+hr {
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.center {
+
+display: flex;
+justify-content: center;
+}
+
+.details{
+    padding-top:0px;
+    padding-bottom:22px
+}
+
+hr {
+    border-bottom: 1px solid;
+    width:70%
+   }
+
+.contents{
+    padding-top: 50px;
+    padding-right:200px;
+    padding-left:200px;
+}
+
+body{
+  background-color: #D7E9F7;
+}
+
+footer{
+    padding-top:100px;
+    padding-bottom:30px;
+
+}
+
+.Me {
+    justify-content: center;
+
+}

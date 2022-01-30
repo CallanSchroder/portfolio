@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CallanS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link href="{{ url_for('static', filename='styless.css')}}" rel="stylesheet">
+</head>
+<body>
+<header >
+
+    <div class="card text-center">
+    <div class="card-body">
+        <div class="bg-dark p-4">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <ul class="nav nav-pills card-header-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Aboutme">About</a>
+        </li>
+        <li class=" nav-item">
+            <a class="nav-link" href="#contactme">Contact</a>
+        </li>
+        </ul>
+        </nav>
+            </div>
+
+    </div>
+        <div  class="text-center header">
+            <img src="image-modified.png" alt="Callan Schroder Img">
+    <div class="card-body card text-center Portfolio-Heading">
+      <table cellspacing="20" class="Me text-center table align-middle">
+      <tr>
+        <td><h1>Callan Schroder</h1>
+            <p><h3>Portfolio</h3></p>
+        <p>Developer Student</p>
+        </td>
+      </tr>
+    </table>
+
+
+    </div>
+            </div>
+        </div>
+
+</header>
+<h4>
+<div class="container center">
+    <div class="row">
+        <div class = "contents">
+            <table cellspacing="10" class="Projects">
+                <tr>
+            <td>
+                    <img src="./APIsite.jpg" style="width:500px;height:500px;" alt=" 'API-site' " class="center">
+                    <p class="details">The idea with this was to use an api to get information about 10 random elephants using JSON and put them into a website, displaying information about their place of birth, death and where they lived
+                    also including a link to their very own wikipedia site for more information on that specific elephant. Here i wasn't too concerned with getting the layout perfect i was more just testing if the back-end of the website was
+                    working as intended.<hr></p></li>
+
+                    </td>
+                 </tr>
+                <tr>
+                <td>
+                    <img src="./BreakOut.jpg" style="width:500px;height:500px;" alt=" 'Break-out-game img' " class="center">
+                    <p class="details">Using the Turtles documentation i intended to copy the famous game, "breakout"/"brickbreaker" as much as possible. in the end I was happy with the result with the ball moving faster and faster
+                    after x amount of balls have been broken. the game does have a couple of bugs which should be easily fixed up with enough time but overall i was happy with the result.</p>
+                    <hr></td>
+                </tr>
+                <tr>
+                <td>
+                    <img src="./MYSHOP.PNG" style="width:500px;height:500px;" alt=" 'My shop img' " class="center">
+                    <p class="details">With this "project" i was practicing how to create the backend of a site that registers and adds new users. as well as logging in users and displaying more information if a user was/wasn't logged in.
+                    with website i do struggle with some layout issues but i feel with enough practice i should get the hang of it in due time. overall pretty happy with how the shop came out.</p>
+                   <hr></td>
+                <</tr>
+                <tr>
+                <td>
+                    <img src="./TurtleDestroyer.PNG" style="width:500px;height:500px;" alt=" 'TurtleDestroyer' " class="center">
+                    <p class="details">This project of mine was created with the intention to mimic the game galactica. I tried to spawn random 'enemies' at random locations accross the map and get them to move downward toward the bottom edge
+                    of the screen. I also focused on trying to get the 'defending' side to try and shoot to destroy the oncoming attack. I wasn't able to get the shooting function to work yet however if enemies did come close enough to the spawn
+                    point of the 'bullet' they would disappear. Over all very happy with how it came out. Just a bit disappointed that the shooting function didn't come out as intended.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+<div class="container center Aboutme">
+
+
+        <div class="contents"> <p>
+
+        </p>
+            </div>
+    </div>
+
+</div>
+</div>
+</h4>
+<footer class="border-top contactme">
+    <hr>
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse">Instagram</i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse">Callanschroder@gmail.com</i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse">Facebook</i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; My personal Website</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
